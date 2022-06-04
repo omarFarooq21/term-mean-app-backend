@@ -8,12 +8,6 @@ const departmentSchema = new mongoose.Schema({
         maxlength: 128,
         unique: true
     },
-    description: {
-        type: String,
-        required: true,
-        minlength: 20,
-        maxlength: 512,
-    },
     subDepartment: [{
         type: String
     }]
