@@ -26,6 +26,12 @@ const userSchema = new mongoose.Schema({
         required: true,
         minlength: 10,
         maxlength: 30
+    },
+    userType: {
+        type: String,
+        required: true,
+        minlength: 10,
+        maxlength: 30
     }
 });
 
