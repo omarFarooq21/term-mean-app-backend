@@ -5,7 +5,7 @@ const {log} = require("mercedlogger") // import merced logger
 //DESTRUCTURE ENV VARIABLES
 const {DATABASE_URL} = process.env
 
-// CONNECT TO MONGODB
+
 mongoose.connect = mongoose.connect(DATABASE_URL, {useNewUrlParser: true, useUnifiedTopology: true})
 
 // CONNECTION EVENTS
